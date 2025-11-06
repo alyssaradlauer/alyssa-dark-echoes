@@ -1,0 +1,27 @@
+.layout {
+  display: flex;
+  gap: 4rem;
+  align-items: flex-start;
+}
+
+.episode-list {
+  flex: 1;
+  max-width: 300px;
+}
+
+.details {
+  flex: 2;
+}
+
+h1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  border-bottom: 4px solid white;
+}
+
+body {
+  background-color: rgb(42, 38, 38);
+  color: white;
+}
